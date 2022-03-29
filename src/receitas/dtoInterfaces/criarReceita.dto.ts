@@ -3,3 +3,9 @@ export interface iCriar{
   nickname: string;
   senha: string;
 }
+
+export interface iCriarReceita{
+  nome: string;
+  autor: string;
+  texto: string;
+}

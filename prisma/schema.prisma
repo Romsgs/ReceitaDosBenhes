@@ -11,15 +11,14 @@ datasource db {
 }
 
 model Receita {
-  id Int @id @default(autoincrement())
-  path String
-  nome String
+  id    Int    @id @default(autoincrement())
+  nome  String
   autor String
 }
 
 model Usuarios {
-  id Int @id @default(autoincrement())
+  id       Int    @id @default(autoincrement())
   nickname String @unique
-  email String @unique
-  senha String
+  email    String @unique
+  senha    String
 }
