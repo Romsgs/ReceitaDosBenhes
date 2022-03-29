@@ -1,6 +1,6 @@
 import { Body, Controller } from '@nestjs/common';
 import { ReceitasService } from './receitas.service';
-import { iCriar } from './dto';
+import { iCriar } from './dtoInterfaces';
 @Controller('/receitas')
 export class ReceitasController {
   constructor(private receitasService: ReceitasService) {}
