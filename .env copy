@@ -1,0 +1,1 @@
+DATABASE_URL="mysql://<nomeUsuario>:<Senha>@<enderecoDB>:<PortaDB>/<NomeDB>?schema=public"
